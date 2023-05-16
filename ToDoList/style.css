@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fceff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #ff7aa8;
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    border: none;
+    background-color: #f4f4f4;
+    color: #444;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff7aa8;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #task-list {
+    text-align: left;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8d7e1;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .task.completed {
+    background-color: #f4f4f4;
+    color: #888;
+    text-decoration: line-through;
+  }
+  
+  .task-checkbox {
+    margin-right: 10px;
+    transform: scale(1.4);
+  }
+  
+  .task-actions {
+    margin-left: auto;
+  }
+  
+  .action-button {
+    margin-left: 8px;
+    background-color: transparent;
+    color: #ff7aa8;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  #filter-buttons {
+    margin-top: 10px;
+  }
+  
+  #filter-buttons button {
+    padding: 6px 12px;
+    background-color: transparent;
+    color: #ff7aa8;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  #filter-buttons button.active {
+    color: #555;
+    font-weight: bold;
+  }
+  
